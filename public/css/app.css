@@ -1,0 +1,664 @@
+
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Home Content 1 */
+
+.navbar {
+    background-color: #343a40;
+    padding: 1rem;
+}
+
+.navbar .container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left {
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    margin-right: 2rem;
+}
+
+.navbar-logo img {
+    height: 40px;
+}
+
+.navbar-menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar-menu li {
+    margin: 0 1rem;
+}
+
+.navbar-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.navbar-menu a:hover {
+    color: #d4d4d4;
+}
+
+.navbar-right {
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-icons a {
+    margin-left: 1rem;
+}
+
+.navbar-icons img {
+    height: 25px;
+}
+
+/* Home Content 2 */
+.container2 {
+    max-width: 100%;
+}
+
+.container2 img {
+    /* margin-bottom: 100px; */
+    width: 100%;
+    height: 100%;
+}
+
+.content2 {
+    display: flex;
+    justify-content: flex-start; /* Untuk menyebelahkan ke kiri */
+    align-items: center; /* Memastikan vertikal berada di tengah */
+    max-width: 100%;
+}
+
+.kaki {
+    position: absolute;
+    top: 30%;
+    left: 11%;
+    flex: 1; /* Agar dapat menyesuaikan lebar dinamis */
+    margin-right: 20px; /* Jarak antara kaki dan isi konten */
+    display: flex; /* Menjadikan kaki dan isi-content-2 sejajar */
+    align-items: center; /* Memastikan vertikal berada di tengah */
+}
+
+.kaki img {
+    max-width: 50px;
+    width: 100%;
+    margin-right: 20px;
+}
+
+.isi-content-2 {
+    position: absolute;
+    top: 29%;
+    left: 15%;
+    flex: 2; /* Agar dapat menyesuaikan lebar dinamis */
+    text-align: left; /* Agar teks berada di kiri */
+    color: white;
+}
+
+.isi-content-2 h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.isi-content-2 h3 {
+    font-weight: 500;
+    margin: 10px 0; /* Mengatur margin untuk paragraf */
+}
+
+.button-hubungi-kami {
+    margin-top: 30px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #EA5521;
+    text-decoration: none;
+    border: 2px solid rgba(234, 85, 33, 0.8);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #EA5521;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Home Content 3 */
+.container3 {
+    max-width: 100%;
+}
+
+.imagegedungputih img {
+    position: absolute;
+    top: 99.8%;
+    max-width: 100%;
+}
+
+.layanan-kami {
+    text-align: center;
+}
+
+.layanan-kami h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.layanan-kami p {
+    color: #898989;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card-layanan-kami {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 70px;
+}
+
+.card {
+    background-color: #000;
+    color: #fff;
+    border-radius: 40px;
+    /* Lebar tetap */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 500px;
+    align-items: center;
+}
+
+.card img {
+    width: 200px;
+    margin: 0;
+}
+
+.card h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+.card p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.card .button {
+    margin: 0;
+    font-size: 16px;
+    color: #EA5521;
+    text-decoration: none;
+    border: 2px solid rgba(234, 85, 33, 0.8);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.card .button:hover {
+    background-color: #EA5521;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Home Content 4 */
+.container4 {
+    margin-top: 50px;
+    max-width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.list-client h1 {
+    margin: 0;
+    font-size: 50px;
+    color: white;
+}
+.list-client p {
+    margin: 0;
+    font-size: 20px;
+    color: white;
+}
+
+/* Home Content 5 */
+.container5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 40vh;
+    margin-top: 30px;
+    margin-bottom: -50px;
+}
+
+.choose-us {
+    display: flex;
+    align-items: center;
+    margin-top: -100px;
+}
+
+.choose-us img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintains the aspect ratio */
+    margin-right: 20px;
+}
+
+.text {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text h1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.text h1 span {
+    margin-top: 1px;
+    margin: 0;
+}
+
+.text p {
+    color: #898989;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1px; /* Adjust the spacing above the paragraph */
+}
+
+.text p span {
+    display: block; /* Ensures each part is on a new line */
+}
+
+.container5a {
+    display: flex;  /* Menggunakan flexbox */
+    justify-content: space-between;  /* Menyusun komponen dengan jarak yang sama di antara mereka */
+    margin-bottom: 50px;
+}
+.choose-me {
+    width: 20%;  /* Lebar setiap komponen */
+    text-align: center;  /* Pusatkan isi di dalam komponen */
+    margin: 0 10px;  /* Ruang di antara komponen */
+}
+.choose-me img {
+    max-width: 100%;  /* Gambar maksimum lebar 100% dari komponen */
+    height: auto;  /* Tetapkan tinggi gambar otomatis */
+}
+
+.choose-me h1 {
+    margin-bottom: 5px; /* Jarak antara judul dan paragraf */
+}
+.choose-me p {
+    margin-bottom: 10px; /* Jarak antara paragraf dan batas bawah komponen */
+}
+
+/* Home Content 6 */
+.container6 {
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container6 h1 {
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Arial';
+    color: #ddd;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.container6 p {
+    margin: 0;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Arial';
+    color: #ddd;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.logos {
+    overflow: hidden;
+    padding: 20px 0;
+    background: black;
+    white-space: nowrap;
+    position: relative;
+}
+
+.logos:before,
+.logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), black);
+}
+
+.logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), black);
+}
+
+.logos-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+}
+
+.logo_tech {
+    height: 50px;
+    margin: 0 40px;
+}
+
+/* Home Content 7 */
+.portfolio {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    position: relative;
+
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.content:hover {
+    opacity: 1;
+}
+
+.content h1 {
+    font-size: 30px;
+    color: #ddd;
+    margin-bottom: 15px;
+}
+
+.content p {
+    font-size: 19px;
+    color: #EA5521;
+}
+
+.content > * {
+    transform: translateY(25px);
+    transition: transform 0.6s;
+}
+
+.content:hover > * {
+    transform: translateY(0px);
+}
+
+.buttonportfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.button-portfolio {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #EA5521;
+    text-decoration: none;
+    border: 2px solid rgba(234, 85, 33, 0.8);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.button-portfolio:hover {
+    background-color: #EA5521;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Home Content 8 */
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #F1F1F1;
+}
+
+.contact-form {
+    flex: 1;
+    background: #ffffff;
+    padding: 20px;
+    margin-right: 20px;
+    background-color: #F1F1F1;
+}
+
+.contact-info {
+    flex: 0 0 45%;
+    margin-left: 20px;
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    background-color: #F1F1F1;
+}
+
+.contact-info h1 {
+    font-weight: 900;
+    margin: 0;
+}
+
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.form-item {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.form-item:last-child {
+    margin-right: 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+form .button-container {
+    text-align: right;
+}
+
+form .button {
+    background: black;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #EA5521;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form textarea#message {
+    height: 150px; /* Atur tinggi textarea sesuai kebutuhan Anda */
+    font-size: 1.25em; /* Atur ukuran font sesuai kebutuhan Anda */
+}
+
+/* Footer */
+.footer1 {
+    /* margin-bottom: 10px; */
+    padding: -30px;
+    max-width: 100%;
+    background-color: black;
+}
+
+.footerimg {
+    max-width: 100%;
+}
+
+.footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: black;
+    padding-top: 20px; /* Atau sesuaikan dengan jarak yang diinginkan */
+}
+
+.footer h1 {
+    margin-bottom: 10px; /* Atur jarak antara <h1> dan elemen berikutnya */
+}
+
+.footer p {
+    margin-top: 5px; /* Atur jarak antara elemen <p> */
+    margin-bottom: 5px; /* Tambahkan margin-bottom untuk jarak antar <p> */
+    color: white; /* Pastikan teks dapat terbaca di latar belakang hitam */
+}
+
+.footer img {
+    width: 80px; /* Mengatur lebar gambar */
+    height: auto; /* Menjaga rasio aspek gambar */
+    margin-right: 20px; /* Memberi jarak antara gambar dan teks */
+}
+
+.footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+
+.footer-icons {
+    text-align: center; /* Untuk menempatkan ikon di tengah, jika diinginkan */
+    background-color: #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-icons .footericon {
+    width: 30px; /* Mengatur lebar gambar */
+    height: auto; /* Menjaga rasio aspek gambar */
+    margin: 0 10px; /* Memberikan jarak 5px di kiri dan kanan setiap gambar */
+    display: inline-block; /* Agar gambar berbaris horizontal */
+}
+
+
+
+
+
